@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Debate output
+debate-output/
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Test
+coverage/
+.vitest/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Misc
+*.tgz
+.cache/
+tmp/
